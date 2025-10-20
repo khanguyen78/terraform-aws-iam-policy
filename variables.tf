@@ -1,6 +1,7 @@
 variable "name" {
   description = "The name of the IAM policy."
   type        = string
+  default  = "default-iam-user"
 }
 
 variable "path" {
@@ -15,7 +16,7 @@ variable "description" {
   default     = "IAM Policy"
 }
 
-variable "policy_json" {
+variable "policy" {
   description = "The JSON policy document."
   type        = string
 }
