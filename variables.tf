@@ -12,7 +12,7 @@ variable "path" {
 variable "description" {
   description = "Description of the IAM policy."
   type        = string
-  default     = ""
+  default     = "IAM Policy"
 }
 
 variable "policy_json" {
